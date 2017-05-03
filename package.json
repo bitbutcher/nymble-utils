@@ -1,0 +1,35 @@
+{
+  "name": "nymble-utils",
+  "version": "0.0.1",
+  "description": "A collection of low-level utilities useful for creating resourceful, restful APIs.",
+  "keywords": [
+    "string",
+    "object",
+    "slug"
+  ],
+  "homepage": "https://github.com/bitbutcher/nymble-utils",
+  "bugs": "https://github.com/bitbutcher/nymble-utils/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bitbutcher/nymble-utils.git"
+  },
+  "author": "Sean M. Duncan <bitbutcher@gmail.com>",
+  "contributors": [
+    "Sean M. Duncan <bitbutcher@gmail.com>"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "engines": {
+    "node": ">=0.10.0 <8.0.0",
+    "npm": ">=2.0.0 <5.0.0"
+  },
+  "dependencies": {
+    "lodash": ">=4.0.0"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-clean": "^0.7.0",
+    "grunt-contrib-coffee": "^0.13.0",
+    "grunt-contrib-copy": "^0.8.2"
+  }
+}
